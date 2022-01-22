@@ -84,7 +84,6 @@ class _LoginPageState extends State<LoginPage> {
                   SizedBox(
                     height: 40.0,
                   ),
-
                   Material(
                     color: Colors.deepPurple,
                     borderRadius: BorderRadius.circular(changeButton ? 50 : 8),
@@ -108,14 +107,6 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                     ),
                   ),
-
-                  // ElevatedButton(
-                  //   child: Text("Login", style: TextStyle()),
-                  //   style: TextButton.styleFrom(minimumSize: Size(150, 50)),
-                  //   onPressed: (){
-                  //     Navigator.pushNamed(context, MyRoutes.homeRoute);
-                  //   }
-                  // )
                 ]),
               )
             ],
